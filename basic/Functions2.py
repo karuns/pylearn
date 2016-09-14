@@ -47,3 +47,11 @@ def print_2(func_var, x,y):
     return func_var(func_var(x,y),func_var(x, y)) 
 
 print_2(func_var,3,2)
+
+print
+print "function with default value"
+def test_func(x,y=2):
+    print x+y
+test_func(3, 3)
+test_func(3) 
+    
