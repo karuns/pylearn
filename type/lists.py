@@ -1,4 +1,11 @@
-words = ["a","b","c"]
+words = ["a","b","c","d","e"]
+
+#list slice
+print(words[0:1])
+print(words[1:4])
+print(words[:4])
+print(words[3:])
+
 words[1] = "e"
 print words
 
@@ -9,7 +16,7 @@ words.append([2,3])
 print words
 
 print len(words)
-print len(words[5])
+print len(words[3])
 
 words.insert(2, ["l","m"])
 print words
